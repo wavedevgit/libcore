@@ -2,22 +2,33 @@ import { BASE_URL, CANARY_URL_APP, HEADERS, WEB_JS } from './constants.js';
 import { deminify, getRuntime } from './runtime.js';
 import { get } from './fetch.js';
 import { getModules } from './get_modules.js';
-import fs from 'fs/promises';
+import fs, { readFile } from 'fs/promises';
 import { extractMetadata } from './wasm-metadata.js';
+import { formatTimeDiff } from './time.js';
 
 async function main() {
     try {
         await fs.mkdir('./data');
     } catch {}
 
+    let old = {};
+    try {
+        old = JSON.parse(await readFile('./data/build.json', 'utf-8'));
+    } catch {}
     const html = await get(CANARY_URL_APP, { headers: HEADERS });
     const web = await get(BASE_URL + '/assets/' + html.match(WEB_JS)[0], {
         headers: HEADERS,
     });
+
+    const builtAt = html.match(/"BUILT_AT":"(\d+)"/)?.[1];
     let build = {
         buildNumber: html.match(/"BUILD_NUMBER":"(\d+)"/)?.[1],
         versionHash: html.match(/"VERSION_HASH":"([a-fA-F0-9]{40})"/)?.[1],
-        builtAt: html.match(/"BUILT_AT":"(\d+)"/)?.[1],
+        builtAt,
+        timeSinceLastBuild:
+            typeof old?.builtAt === 'undefined'
+                ? null
+                : formatTimeDiff(old.builtAt, builtAt),
         rspackVersion: web.match(/\.rv=\(\)=>"([\s\S]+?)",/)?.[1],
         libdiscore: null,
         'libdiscore-metadata': {
