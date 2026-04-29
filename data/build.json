@@ -1,7 +1,7 @@
 {
-    "buildNumber": "537034",
-    "versionHash": "e0c1a487dce588bcc28962ce41daec13e4bf6a0b",
-    "builtAt": "1777494279376",
+    "buildNumber": "537033",
+    "versionHash": "48d5af99330b1b50d3aa9b2267379dc84121c850",
+    "builtAt": "1777494265878",
     "rspackVersion": "1.7.11",
     "libdiscore": "6e6e667c6e705602",
     "libdiscore-metadata": {
@@ -67,7 +67,25 @@
                 "size": 107
             }
         ],
-        "producers": {},
+        "producers": {
+            "unknown": [
+                {
+                    "type": "ProducerMetadataVersionedName",
+                    "name": "rustc",
+                    "version": "1.93.0-nightly (518b42830 2025-11-16)"
+                },
+                {
+                    "type": "ProducerMetadataVersionedName",
+                    "name": "walrus",
+                    "version": "0.23.3"
+                },
+                {
+                    "type": "ProducerMetadataVersionedName",
+                    "name": "wasm-bindgen",
+                    "version": "0.2.100 (2405ec2b4)"
+                }
+            ]
+        },
         "target_features": []
     }
 }
