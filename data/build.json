@@ -1,7 +1,73 @@
 {
-    "buildNumber": "536996",
-    "versionHash": "979d02c9c3f60e49f4d21a01551fbbf2257b3dfc",
-    "builtAt": "1777492637917",
+    "buildNumber": "537034",
+    "versionHash": "e0c1a487dce588bcc28962ce41daec13e4bf6a0b",
+    "builtAt": "1777494279376",
     "rspackVersion": "1.7.11",
-    "libdiscore": null
+    "libdiscore": "6e6e667c6e705602",
+    "libdiscore-metadata": {
+        "sections": [
+            {
+                "section": "type",
+                "startOffset": 9,
+                "size": 557
+            },
+            {
+                "section": "import",
+                "startOffset": 569,
+                "size": 6451
+            },
+            {
+                "section": "func",
+                "startOffset": 7023,
+                "size": 1421
+            },
+            {
+                "section": "table",
+                "startOffset": 8447,
+                "size": 11
+            },
+            {
+                "section": "memory",
+                "startOffset": 8460,
+                "size": 3
+            },
+            {
+                "section": "global",
+                "startOffset": 8465,
+                "size": 9
+            },
+            {
+                "section": "export",
+                "startOffset": 8476,
+                "size": 1658
+            },
+            {
+                "section": "element",
+                "startOffset": 10137,
+                "size": 1742
+            },
+            {
+                "section": "code",
+                "startOffset": 11886,
+                "size": 983236
+            },
+            {
+                "section": "data",
+                "startOffset": 995126,
+                "size": 181120
+            },
+            {
+                "section": "custom",
+                "startOffset": 1176250,
+                "size": 132
+            },
+            {
+                "section": "custom",
+                "startOffset": 1176385,
+                "size": 107
+            }
+        ],
+        "producers": {},
+        "target_features": []
+    }
 }

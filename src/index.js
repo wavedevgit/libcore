@@ -1,14 +1,9 @@
-import {
-    BASE_URL,
-    CANARY_URL_APP,
-    HEADERS,
-    RSPACK_RUNTIME_START,
-    WEB_JS,
-} from './constants.js';
+import { BASE_URL, CANARY_URL_APP, HEADERS, WEB_JS } from './constants.js';
 import { deminify, getRuntime } from './runtime.js';
 import { get } from './fetch.js';
 import { getModules } from './get_modules.js';
 import fs from 'fs/promises';
+import { extractMetadata } from './wasm-metadata.js';
 
 async function main() {
     try {
@@ -25,16 +20,22 @@ async function main() {
         builtAt: html.match(/"BUILT_AT":"(\d+)"/)?.[1],
         rspackVersion: web.match(/\.rv=\(\)=>"([\s\S]+?)",/)?.[1],
         libdiscore: null,
+        'libdiscore-metadata': {
+            producer: null,
+            language: null,
+            'processed-by': null,
+            target_features: null,
+        },
     };
     console.log('got main build info', build);
 
     console.log('trying to find libdiscore');
 
-    const { js: modules } = await getModules(web);
+    // its on one of the js files in html
+    const modules = await getModules(html);
 
-    for (let module of Object.values(modules)) {
-        break;
-        const js = await get(BASE_URL + '/assets/' + module, {
+    for (let module of modules) {
+        const js = await get(BASE_URL + module, {
             headers: HEADERS,
         });
         // main string that is in chunk that has the wasm file name
@@ -49,13 +50,20 @@ async function main() {
         console.log("couldn't find libdiscore, sadly...");
         console.log('something changed.');
     }
+
+    const libdiscoreBuffer = await get(
+        BASE_URL + '/assets/' + build.libdiscore + '.module.wasm',
+        {
+            headers: HEADERS,
+            binary: true,
+        },
+    );
+
     if (build.libdiscore)
-        await fs.writeFile(
-            './data/libdiscore.wasm',
-            await get(BASE_URL + '/assets/' + build.libdiscore, {
-                headers: HEADERS,
-            }),
-        );
+        await fs.writeFile('./data/libdiscore.wasm', libdiscoreBuffer);
+
+    // gets metadata
+    build['libdiscore-metadata'] = extractMetadata(libdiscoreBuffer);
 
     // its time to extract rspack runtime only
 

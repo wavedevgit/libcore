@@ -5,5 +5,8 @@
  * @returns {string}
  */
 export async function get(url, options) {
-    return await (await fetch(url, options)).text();
+    let req = await await fetch(url, options);
+    return options?.binary
+        ? Buffer.from(await req.arrayBuffer())
+        : await req.text();
 }

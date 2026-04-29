@@ -9,7 +9,7 @@ export function deminify(code) {
     writeFileSync(tmp, code);
     execSync(`npx biome format ${tmp} --write`, { stdio: 'inherit' });
     let output = readFileSync(tmp, 'utf8');
-    rmSync(tsmp)
+    rmSync(tmp)
     return output
 }
 
