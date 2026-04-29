@@ -1,0 +1,2 @@
+# libcore
+Discord libdiscore decompiled
