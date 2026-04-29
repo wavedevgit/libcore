@@ -1,0 +1,38 @@
+name: CI Pipeline
+
+on:
+    schedule:
+        - cron: '*/5 * * * *'
+
+permissions:
+    contents: read
+
+jobs:
+    mine:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+            - name: Setup Node 25
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 25
+                  cache: npm
+            - name: Install libs
+              run: |
+                  sudo apt install wabt jq -y
+                  npm i
+            - name: Run script
+              run: node src/index.js
+            - name: Decompile wasm
+              run: wasm-decompile ./data/libdiscore.wasm -o ./data/libdiscore.c
+            - name: Configure git
+              run: |
+                  git config user.email "github-actions[bot]@users.noreply.github.com"
+                  git config user.name "github-actions[bot]"
+            - name: Commit & push
+              run: |
+                  BUILD_NUMBER=$(cat ./data/build.json | jq .buildNumber -r)
+                  git add .
+                  git diff --cached --quiet || git commit -m "mine: new build $BUILD_NUMBER"
+                  git push
