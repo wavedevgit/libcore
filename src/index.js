@@ -38,6 +38,7 @@ async function main() {
             target_features: null,
         },
     };
+    if (build.buildNumber === old.buildNumber) process.exit(0)
     console.log('got main build info', build);
 
     console.log('trying to find libdiscore');
