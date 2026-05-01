@@ -22,7 +22,7 @@ jobs:
             - name: Install libs
               run: |
                   sudo apt install wabt jq -y
-                  npm i
+                  npm i && npm i js-beautify
             - name: Run script
               run: node src/index.js
             - name: Decompile wasm
