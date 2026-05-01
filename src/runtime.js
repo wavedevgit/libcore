@@ -7,7 +7,7 @@ import { execSync } from 'node:child_process';
 import * as beautify from "js-beautify";
 
 export function deminify(code) {
-  return beautify.js(code, {
+  return beautify.default.js(code, {
     indent_size: 2,
     space_in_empty_paren: true
   });
