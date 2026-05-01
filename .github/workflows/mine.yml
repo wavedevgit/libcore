@@ -27,6 +27,8 @@ jobs:
               run: node src/index.js
             - name: Decompile wasm
               run: wasm-decompile ./data/libdiscore.wasm -o ./data/libdiscore.c
+            - name: get metadata of launch signature
+              run: node scripts/extract_launch_signature_metadata.cjs
             - name: Configure git
               run: |
                   git config user.email "github-actions[bot]@users.noreply.github.com"
