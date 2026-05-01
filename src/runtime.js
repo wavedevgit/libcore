@@ -4,13 +4,13 @@ import MagicString from 'magic-string';
 import { readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { execSync } from 'node:child_process';
 
+import { js as beautify } from "js-beautify";
+
 export function deminify(code) {
-    const tmp = '/tmp/input.js';
-    writeFileSync(tmp, code);
-    execSync(`npx biome format ${tmp} --write`, { stdio: 'inherit' });
-    let output = readFileSync(tmp, 'utf8');
-    rmSync(tmp)
-    return output
+  return beautify(code, {
+    indent_size: 2,
+    space_in_empty_paren: true
+  });
 }
 
 const isNumber = (n) => {
