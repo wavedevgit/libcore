@@ -4,10 +4,10 @@ import MagicString from 'magic-string';
 import { readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { execSync } from 'node:child_process';
 
-import { js as beautify } from "js-beautify";
+import * as beautify from "js-beautify";
 
 export function deminify(code) {
-  return beautify(code, {
+  return beautify.js(code, {
     indent_size: 2,
     space_in_empty_paren: true
   });
