@@ -36,63 +36,33 @@ export function getRuntime(code) {
         allowReturnOutsideFunction: true,
     });
 
-    let strippedChunks = false;
+    const newCode = new MagicString(code);
 
-    let newCode = new MagicString(code);
+    let stripped = false;
 
     walk.simple(ast, {
         ObjectExpression(node) {
-            if (strippedChunks) return;
+            if (stripped) return;
             if (!node.properties?.length) return;
 
-            if (
-                !node.properties.every(
-                    (prop) =>
-                        isNumber(prop.key?.value || prop.key?.name) &&
-                        prop.value &&
-                        [
-                            'FunctionExpression',
-                            'ArrowFunctionExpression',
-                        ].includes(prop.value.type),
-                )
-            )
-                return;
-
-            const firstProperty = node.properties[0];
-
-            newCode.update(
-                firstProperty.key.start,
-                firstProperty.key.end,
-                'id',
-            );
-            console.log('updated id');
-
-            // make function args readable
-            for (
-                let param = 0;
-                param < firstProperty.value?.params?.length;
-                param++
-            ) {
-                newCode.update(
-                    firstProperty.value.params[param].start,
-                    firstProperty.value.params[param].end,
-                    WEBPACK_FACTORY_PARAMS[param] || 'unknown',
+            // detect numeric-key object full of functions (webpack chunk map)
+            const isChunkObject = node.properties.every(prop => {
+                const key = prop.key?.value || prop.key?.name;
+                return (
+                    isNumber(key) &&
+                    prop.value &&
+                    (prop.value.type === 'FunctionExpression' ||
+                     prop.value.type === 'ArrowFunctionExpression')
                 );
-            }
-            // make body empty so its very small
-            newCode.update(
-                firstProperty.value.body.start,
-                firstProperty.value.body.end,
-                '{}',
-            );
-            for (let prop of node.properties.slice(1)) {
-                newCode.update(prop.start, prop.end, 'REMOVE_THIS_PROP');
-            }
-            newCode = newCode.toString();
-            // removes invalid js :3
-            newCode = newCode.replaceAll(',REMOVE_THIS_PROP', '');
-            strippedChunks = true;
+            });
+
+            if (!isChunkObject) return;
+
+            newCode.overwrite(node.start, node.end, '{}');
+
+            stripped = true;
         },
     });
-    return newCode;
+
+    return newCode.toString();
 }
