@@ -1,8 +1,8 @@
 {
-    "buildNumber": "549451",
-    "versionHash": "d96976e230b14f1a0bde4175385fc949c1fd8e8c",
-    "builtAt": "1779469993888",
-    "timeSinceLastBuild": "2h ago",
+    "buildNumber": "549511",
+    "versionHash": "48b2399ef63ef57aa67c85114a93496b2815bfbb",
+    "builtAt": "1779472467318",
+    "timeSinceLastBuild": "41m ago",
     "rspackVersion": "1.7.11",
     "libdiscore": "6e6e667c6e705602",
     "libdiscore-metadata": {
@@ -87,6 +87,8 @@
                 }
             ]
         },
-        "target_features": []
+        "target_features": [],
+        "strings_count": 2217,
+        "strings_file": "data/extracted-strings.txt"
     }
 }
