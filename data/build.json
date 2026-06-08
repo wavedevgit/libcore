@@ -1,10 +1,10 @@
 {
-    "buildNumber": "558880",
-    "versionHash": "11a807e006c8ca426b078c8a32dbc156894d6890",
-    "builtAt": "1780899927379",
-    "timeSinceLastBuild": "1d ago",
+    "buildNumber": "558909",
+    "versionHash": "10c3bf58c1d915dde809679cb6fdbf8d4d52b671",
+    "builtAt": "1780915285674",
+    "timeSinceLastBuild": "4h ago",
     "rspackVersion": "1.7.11",
-    "libdiscore": "a62d5387a5fa595f",
+    "libdiscore": "6e6e667c6e705602",
     "libdiscore-metadata": {
         "sections": [
             {
@@ -60,11 +60,11 @@
             {
                 "section": "custom",
                 "startOffset": 1176250,
-                "size": 120
+                "size": 132
             },
             {
                 "section": "custom",
-                "startOffset": 1176372,
+                "startOffset": 1176385,
                 "size": 107
             }
         ],
@@ -83,7 +83,7 @@
                 {
                     "type": "ProducerMetadataVersionedName",
                     "name": "wasm-bindgen",
-                    "version": "0.2.100"
+                    "version": "0.2.100 (2405ec2b4)"
                 }
             ]
         },
