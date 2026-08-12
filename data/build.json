@@ -1,71 +1,76 @@
 {
-    "buildNumber": "591796",
-    "versionHash": "da6f116ea6e988b7af4e5637a7f9b150f8c3eb68",
-    "builtAt": "1786557096453",
-    "timeSinceLastBuild": "49m ago",
+    "buildNumber": "591899",
+    "versionHash": "573e62c0638609f2d4daa1b0895e1298b11b84f3",
+    "builtAt": "1786560889714",
+    "timeSinceLastBuild": "1h ago",
     "rspackVersion": "1.7.11",
-    "libdiscore": "ecd6ab9f1380ae30",
+    "libdiscore": "f159aba00b15cadd",
     "libdiscore-metadata": {
         "sections": [
             {
                 "section": "type",
                 "startOffset": 9,
-                "size": 557
+                "size": 668
             },
             {
                 "section": "import",
-                "startOffset": 569,
+                "startOffset": 680,
                 "size": 6451
             },
             {
                 "section": "func",
-                "startOffset": 7023,
-                "size": 1430
+                "startOffset": 7134,
+                "size": 2682
             },
             {
                 "section": "table",
-                "startOffset": 8456,
+                "startOffset": 9819,
                 "size": 11
             },
             {
                 "section": "memory",
-                "startOffset": 8469,
+                "startOffset": 9832,
                 "size": 3
             },
             {
                 "section": "global",
-                "startOffset": 8474,
+                "startOffset": 9837,
                 "size": 9
             },
             {
                 "section": "export",
-                "startOffset": 8485,
+                "startOffset": 9848,
                 "size": 1658
             },
             {
                 "section": "element",
-                "startOffset": 10146,
-                "size": 1746
+                "startOffset": 11509,
+                "size": 1752
             },
             {
                 "section": "code",
-                "startOffset": 11899,
-                "size": 1002034
+                "startOffset": 13264,
+                "size": 1120682
             },
             {
                 "section": "data",
-                "startOffset": 1013937,
-                "size": 181753
+                "startOffset": 1133950,
+                "size": 207731
             },
             {
                 "section": "custom",
-                "startOffset": 1195694,
+                "startOffset": 1341685,
+                "size": 232555
+            },
+            {
+                "section": "custom",
+                "startOffset": 1574244,
                 "size": 120
             },
             {
                 "section": "custom",
-                "startOffset": 1195816,
-                "size": 107
+                "startOffset": 1574366,
+                "size": 148
             }
         ],
         "producers": {
@@ -88,7 +93,7 @@
             ]
         },
         "target_features": [],
-        "strings_count": 2226,
+        "strings_count": 4917,
         "strings_file": "data/extracted-strings.txt"
     }
 }
