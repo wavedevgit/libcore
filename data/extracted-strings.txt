@@ -2216,7 +2216,7 @@ rustc%1.93.0-nightly (518b42830 2025-11-16)
 walrus
 0.23.3
 wasm-bindgen
-0.2.100 (2405ec2b4)
+0.2.100
 target_features
 mutable-globals+
 nontrapping-fptoint+
