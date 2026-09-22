@@ -9,5 +9,15 @@
     "bitmask": 119,
     "bitmask_raw": "1 << 119",
     "name": "jQuery"
+  },
+  {
+    "keys": [
+      "BetterDiscord",
+      "BetterDiscordPreload",
+      "BdApi"
+    ],
+    "bitmask": 108,
+    "bitmask_raw": "1 << 108",
+    "name": "BetterDiscord"
   }
 ]

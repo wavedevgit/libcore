@@ -1,70 +1,70 @@
 {
-    "buildNumber": "618496",
-    "versionHash": "43060abf2f47a6f51dc710d7d17ee82e660104fd",
-    "builtAt": "1790103430132",
-    "timeSinceLastBuild": "3h ago",
+    "buildNumber": "618773",
+    "versionHash": "bb405844c764c97e89de819525916bdeb6fad1e1",
+    "builtAt": "1790114117296",
+    "timeSinceLastBuild": "2h ago",
     "rspackVersion": "1.7.11",
-    "libdiscore": "89c24f131d9d3e09",
+    "libdiscore": "ebb338cc0a7278a7",
     "libdiscore-metadata": {
         "sections": [
             {
                 "section": "type",
                 "startOffset": 9,
-                "size": 557
+                "size": 551
             },
             {
                 "section": "import",
-                "startOffset": 569,
+                "startOffset": 563,
                 "size": 6451
             },
             {
                 "section": "func",
-                "startOffset": 7023,
-                "size": 1430
+                "startOffset": 7017,
+                "size": 1418
             },
             {
                 "section": "table",
-                "startOffset": 8456,
+                "startOffset": 8438,
                 "size": 11
             },
             {
                 "section": "memory",
-                "startOffset": 8469,
+                "startOffset": 8451,
                 "size": 3
             },
             {
                 "section": "global",
-                "startOffset": 8474,
+                "startOffset": 8456,
                 "size": 9
             },
             {
                 "section": "export",
-                "startOffset": 8485,
-                "size": 1658
+                "startOffset": 8467,
+                "size": 1708
             },
             {
                 "section": "element",
-                "startOffset": 10146,
-                "size": 1746
+                "startOffset": 10178,
+                "size": 1697
             },
             {
                 "section": "code",
-                "startOffset": 11899,
-                "size": 1002034
+                "startOffset": 11882,
+                "size": 982536
             },
             {
                 "section": "data",
-                "startOffset": 1013937,
-                "size": 181753
+                "startOffset": 994422,
+                "size": 196776
             },
             {
                 "section": "custom",
-                "startOffset": 1195694,
+                "startOffset": 1191202,
                 "size": 132
             },
             {
                 "section": "custom",
-                "startOffset": 1195829,
+                "startOffset": 1191337,
                 "size": 107
             }
         ],
@@ -73,7 +73,7 @@
                 {
                     "type": "ProducerMetadataVersionedName",
                     "name": "rustc",
-                    "version": "1.93.0-nightly (518b42830 2025-11-16)"
+                    "version": "1.99.0-nightly (73dc9167f 2026-08-01)"
                 },
                 {
                     "type": "ProducerMetadataVersionedName",
@@ -88,7 +88,7 @@
             ]
         },
         "target_features": [],
-        "strings_count": 2226,
+        "strings_count": 2075,
         "strings_file": "data/extracted-strings.txt"
     }
 }
