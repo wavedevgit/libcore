@@ -1,8 +1,8 @@
 {
-    "buildNumber": "641379",
-    "versionHash": "5da50dde59ecb766318abfc7f593425bcdc99c20",
-    "builtAt": "1792249668074",
-    "timeSinceLastBuild": "5h ago",
+    "buildNumber": "641411",
+    "versionHash": "1300f2e1571931755e73248f13a2ac9f70da4830",
+    "builtAt": "1792260902554",
+    "timeSinceLastBuild": "3h ago",
     "rspackVersion": "1.7.11",
     "libdiscore": "34aec3bbe8b005d0",
     "libdiscore-metadata": {
