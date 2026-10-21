@@ -1,10 +1,10 @@
 {
-    "buildNumber": "644391",
-    "versionHash": "66200cf11d20f5a1069a8cf333ad877540ee55d0",
-    "builtAt": "1792539548134",
-    "timeSinceLastBuild": "2h ago",
+    "buildNumber": "644678",
+    "versionHash": "4f2ed96b600ecb7f7d759df2e48295369edadb76",
+    "builtAt": "1792554650281",
+    "timeSinceLastBuild": "4h ago",
     "rspackVersion": "1.7.11",
-    "libdiscore": "34aec3bbe8b005d0",
+    "libdiscore": "9cad46e74f330303",
     "libdiscore-metadata": {
         "sections": [
             {
@@ -20,51 +20,51 @@
             {
                 "section": "func",
                 "startOffset": 7017,
-                "size": 1426
+                "size": 1425
             },
             {
                 "section": "table",
-                "startOffset": 8446,
+                "startOffset": 8445,
                 "size": 11
             },
             {
                 "section": "memory",
-                "startOffset": 8459,
+                "startOffset": 8458,
                 "size": 3
             },
             {
                 "section": "global",
-                "startOffset": 8464,
+                "startOffset": 8463,
                 "size": 9
             },
             {
                 "section": "export",
-                "startOffset": 8475,
+                "startOffset": 8474,
                 "size": 1708
             },
             {
                 "section": "element",
-                "startOffset": 10186,
+                "startOffset": 10185,
                 "size": 1701
             },
             {
                 "section": "code",
-                "startOffset": 11894,
-                "size": 992631
+                "startOffset": 11893,
+                "size": 993712
             },
             {
                 "section": "data",
-                "startOffset": 1004529,
-                "size": 197249
+                "startOffset": 1005609,
+                "size": 197324
             },
             {
                 "section": "custom",
-                "startOffset": 1201782,
+                "startOffset": 1202937,
                 "size": 132
             },
             {
                 "section": "custom",
-                "startOffset": 1201917,
+                "startOffset": 1203072,
                 "size": 107
             }
         ],
@@ -88,7 +88,7 @@
             ]
         },
         "target_features": [],
-        "strings_count": 2080,
+        "strings_count": 2095,
         "strings_file": "data/extracted-strings.txt"
     }
 }

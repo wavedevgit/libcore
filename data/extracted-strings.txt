@@ -111,9 +111,9 @@ __wbg_set_bb8cecf6a62b9f46
 __wbindgen_memory
 __wbindgen_throw
 __wbindgen_debug_string
-__wbindgen_closure_wrapper1677
-__wbindgen_closure_wrapper1714
-__wbindgen_closure_wrapper2571
+__wbindgen_closure_wrapper1676
+__wbindgen_closure_wrapper1713
+__wbindgen_closure_wrapper2570
 __wbindgen_init_externref_table
     
 memory
@@ -394,10 +394,11 @@ j )7
 j (7
  &!% 
  %B~R
-@ 'B
-". .B
-@ )P
-@ /PE
+@ )B
+"1 1B
+@ *B
+@ 0PE
+ .!* -!( +!) 
 A8jA
 A?q!
 trr!
@@ -443,53 +444,53 @@ srE
 A:Gq
 jA::
 A}A| 
-p $B
+p %B
 A8j!
-@ %P
+@ &P
 jA,:
-j"!A
-lk""A
-n"#A
-k " #A
+j""A
+lk"#A
+n"$A
+k # $A
 A0r:
 jjA-:
 A,j6
-X!$ 
-`!% 
-h!& 
- $B 
-!$A~!
+X!% 
+`!& 
+h!' 
+!%A~!
 A0j!
-w )B 
-~!+ 
-"* +
-"(PE
-@ ) 
+w *B 
+~!, 
+"+ ,
+")PE
+@ * 
 qAhlj"
- * *B
-") )B
+ + +B
+"* *B
 ~lj"
 A8k(
 A4k"
 A$k(
 A@j(
 A<k(
-@ (P
- ( *
-X )R
-x!+ 
-p!, 
- !/ 
+@ )P
+ ) +
+X *R
+x!, 
+p!- 
+0!/ 
 (!0 
-0!1 
-j * 
-w (B 
+ !1 
+j + 
+w )B 
 ~ljA
 A@k-
 A0j)
 A(j)
 A j)
-j ( 
+A<j-
+j ) 
 A?jA
 @A!A
 A:FqE
@@ -567,9 +568,9 @@ A+j-
 A)j/
 A4j)
 j   
+A jA
 A+F"
 vAtlj"
-A jA
 qA<G 
 IrE 
 kAMKrr
@@ -656,6 +657,7 @@ FqE
  %G!
 jA.:
 @A A
+j ( 
 j %A
 k"#A
 jA-:
@@ -698,7 +700,6 @@ vAhlj"
 A@k(
 A>j-
 A?j-
-A<j-
 A=j-
 B}Q"
 A jA(
@@ -800,95 +801,104 @@ A<nA
 qA<p"
 jAxq 
 j"6(
-": 6(
- :Fr
-r!; 6(
+"; 6(
+ ;Fr
+r!< 6(
 @ 6 
-j"?6
- 6 36
-r!) 
- ) *(
- ) *)
-tj",6
-~"NB 
-j!2A
-xs 'A
-"X XB
-@ PB
-@ RPE
- M!P 
+j"@6
+ 6 46
+r!0 
+ / 0(
+ / 0)
+tj"16
+~"PB 
+xs #A
+"!A~F
+@  A
+r!. 
+j!8A
+xs &A
+"W WB
+@ QB
+@ SPE
+q!-A
+q!. Q
+ P!Q T!O R!M 
+xF #A
 @ NP
- 8 9A
+ 9 :A
 ~"MB 
 @ MP
-"!q"
-j !A
-~!Q 
-"P Q
-"MPE
+~!R 
+"O R
+"PPE
 @ N 
- M PB
+ M OB
 k N7
 8"M7
 A<jA
-A@k!@ 
-j!A 
+r!) 
+A@k!A 
 j!B 
 j!C 
 j!D 
 j!E 
 j!F 
+r!3 
 j!G 
 j!H 
 j!I 
 j!J 
-r!9 
 j!K 
-j!=A~!
+r!: 
+j!L 
+j!>A~!
 "i iB+Z
 +)('&%$#"! 
 @ ZP
 @ [P
 @ \P
 @ ]P
-@ cP
+@ eP
 @ ^P
 @ _P
 @ `P
 @ aP
 @ bP
-@ eP
 @ fP
+@ cP
 @ gP
 @ hP
-@ WB
+@ XB
  dPE
-`"/A
-l"0A
-x"1A
-@ )A
-@ +A
-!S QB
-!Q UB
-!U RB
-!O qB
-!b &A
+`"(A
+l")A
+x"*A
+@ %A
+@ /A
+!M SB
+!S VB
+!V jB
+!c #A
+!U qB
+!b  A
 !^ mB
 !_ nB
 !` pB
-!a VB
-!V jB
-![ PB
-!P MB
-!M TB
- , ,A
- % %A
+!a QB
+!Q RB
+!R TB
+!T PB
+!P OB
+ 1 1A
+ " "A
+ ' 'A
 !Z $
-!N (A
+!N +A
 @ 7E 
  7jA
-j >A
-j!3 ?"
+j ?A
+j!4 @"
 j  7
 "   B
 |"!B
@@ -916,6 +926,7 @@ A(j6
 jA!j"
 A~q"
 k QB
+j!2A
 j"?(
 w RB 
 ~!T 
@@ -923,6 +934,7 @@ w RB
 "QPE
 @ R 
  S SB
+j!A 
 "$ $(
 @ % %(
 @ & &(
@@ -1026,14 +1038,12 @@ j")
  9j!
  8j 
  , -J
-@  A
 @ "E
  "A(F
  ! %jA
  %j 
  %j"
  %A1:
-@ %A
 jA0  
 j!'  A
  . ';
@@ -1178,54 +1188,33 @@ kA^qA
 A:kAuK 
 kAyKr
 kA!Ir
-lj"*6
-x!7 
-p!8 
-l!  
-`!5 
-X!4 
-H!! 
-<!/ 
-;!" 
-:!# 
-9!$ 
-8!% 
-0!9 
-(!: 
- !; 
- 0B 
-j"')
-w 6B 
-l"(A
-~!> 
-`!? 
- (q"
-"< >
-"0PE
- < <B
-j"&j 
- (q!
-j ):
-k 67
-k ? '
- 2B 
-j 0 
- 1B 
-@ 0P
-@ 1P
- 0 3
- 1 2
-w 3B 
-~!5 
-"4 5
-@ 3 
- 4 4B
-w 0B 
-k 0B
- 0 1
-h"27
-}!2 
- 0 2
+L!! 
+8!" 
+0!( 
+(!' 
+0 $B 
+@ $B
+~!+ 
+0!, 
+"* +
+ * *B
+k )7
+k , 
+w &B 
+"' (
+@ & 
+ ' 'B
+w #B 
+`")B
+`"#7
+ $B 
+A0j # 
+A8j)
+k #B
+h"$7
+}!$ 
+ # $
+A<k)
 lj"!6
 "+B 
 f!) 
@@ -1233,6 +1222,7 @@ X!1
 H!/ 
 @!. 
 A)j"
+w 0B 
 ~!3 
 H!4 
 "2 3
@@ -1245,12 +1235,11 @@ w -B
 ". /
 @ - 
  . .B
-w *B 
 x"0B
 x"*7
+j * 
  ,B 
 0"*7
-A8j)
  * ,
 k *B
   jA
@@ -1258,28 +1247,6 @@ h"+7
 }!+ 
  * +
 j" G
-L!! 
-8!" 
-0!( 
-(!' 
-0 $B 
-@ $B
-0!, 
-k )7
-k , 
-w &B 
-"' (
-@ & 
- ' 'B
-w #B 
-`")B
-`"#7
-A0j # 
-k #B
-h"$7
-}!$ 
- # $
-A<k)
 A(l"
 A(lj"
 tkA k"
@@ -1287,11 +1254,58 @@ A(ljA
 A(lA
 A(lj6
 kA(n!
+lj"+6
+x!7 
+p!8 
+l!  
+`!5 
+X!4 
+H!! 
+<!" 
+;!# 
+:!$ 
+9!% 
+8!& 
+0!9 
+(!: 
+ !; 
+A=j"
+ 0B 
+j"()
+w 6B 
+~!> 
+`!? 
+ )q"
+"< >
+"0PE
+ < <B
+j"'j 
+ )q!
+j *:
+k 67
+k ? (
+ 2B 
+j 0 
+ 1B 
+@ 0P
+@ 1P
+ 0 3
+ 1 2
+w 3B 
+~!5 
+"4 5
+@ 3 
+ 4 4B
+k 0B
+ 0 1
+h"27
+}!2 
+ 0 2
 primary_colorsecondary_colortertiary_colorguildIdroleroleIdemojisstickersstickeridnoteuserIdguildsunavailableGuildspropertiesrolespartial_updatesdeleted_role_idstagbadgemoderatorReportingEnabledmoderatorReportChannelIdapplicationIdapplication_idgameOrganizationIdguildunavailableuserjoinedAtcurrentUserId
 struct ServerRoleColors with 3 elements
-premium_subscriberbot_idintegration_idsku_idis_guild_product_rolesubscription_listing_idavailable_for_purchaseguild_connectionsnamedescriptionpermissionsflagsmentionablepositioncolorcolorshoistmanagediconunicode_emojitagsversionstruct ServerGuildRole with 15 elements
+premium_subscriberbot_idintegration_idsku_idis_guild_product_rolesubscription_listing_idavailable_for_purchaseguild_connectionsgame_organization_can_invitenamedescriptionpermissionsflagsmentionablepositioncolorcolorshoistmanagediconunicode_emojitagsversionstruct ServerGuildRole with 15 elements
 struct GuildRoleUpdateOrCreateAction with 2 elements
-struct GuildRoleDeleteAction with 2 elements(
+struct GuildRoleDeleteAction with 2 elementsD
 require_colonsanimatedavailablestruct ServerGuildEmoji with 8 elements
 struct CachedEmojisLoaded with 1 element
 struct GuildEmojisUpdate with 2 elements
@@ -1568,7 +1582,7 @@ Error(
  for action '
 opinternally tagged enum GuildEntitySyncOperationBackgroundSyncFullGuildidpropertiesroles
 BackgroundSyncPartialGuildpartial_updates
-namedescriptioniconCacheLoadedguildsZJ
+namedescriptioniconCacheLoadedguildsvJ
 CacheLoadedLazyGuildProfiletagbadge
 GuildPremiumFeaturesfeaturesadditionalEmojiSlotsadditional_emoji_slotsadditionalStickerSlotsadditional_sticker_slotsadditionalSoundSlotsadditional_sound_slots
 ModeratorReportingmoderatorReportingEnabledmoderator_reporting_enabledmoderatorReportChannelIdmoderator_report_channel_id
@@ -1581,12 +1595,12 @@ GuildUpdateGuildDeleteunavailableGuildMemberAdduserguildIdjoinedAtcurrentUserId
 BackgroundSyncdata_modeinternally tagged enum BackgroundSyncGuildfull_syncupdate
 variant index 0 <= i < 2
 fullpartial
-variant index 0 <= i < 3
+variant index 0 <= i < 30S
 struct variant GuildEntitySyncOperation::FullSyncstruct variant GuildEntitySyncOperation::UpdateidnamedescriptionownerIdiconsplashbannerhomeHeaderpreferredLocalefeaturesafkChannelIdafkTimeoutsystemChannelIdverificationLeveljoinedAtdefaultMessageNotificationsmfaLevelapplication_idexplicitContentFiltervanityURLCodepremiumTierpremiumSubscriberCountpremiumProgressBarEnabledpremiumProgressBarEnabledUserUpdatedAtsystemChannelFlagsrulesChannelIdsafetyAlertsChannelIddiscoverySplashpublicUpdatesChannelIdmaxStageVideoChannelUsersmaxVideoChannelUsersmaxMembersnsfwLevelhubTypelatestOnboardingQuestionIdprofilepremiumFeaturesmoderatorReportingownerConfiguredContentLevelverificationRoleIdgameApplicationIdsincidentsDatalinkedGameOrganizationpremium_subscription_countjoined_atdiscovery_splashhome_headerpreferred_localeafk_channel_idafk_timeoutsystem_channel_idverification_leveldefault_message_notificationsowner_idmfa_levelexplicit_content_filterpremium_tiersystem_channel_flagsrules_channel_idsafety_alerts_channel_idpremium_progress_bar_enabledpremium_progress_bar_enabled_user_updated_atpublic_updates_channel_idmax_stage_video_channel_usersmax_video_channel_usersmax_membersnsfw_levelhub_typelatest_onboarding_question_idpremium_featuresmoderator_reportingowner_configured_content_levelverification_role_idgame_application_idsincidents_datalinked_game_organizationpropertiesrolesemojisstickers
 value is missingidnamedescriptionownerIdiconsplashbannerhomeHeaderpreferredLocalefeaturesafkChannelIdafkTimeoutsystemChannelIdverificationLeveljoinedAtdefaultMessageNotificationsmfaLevelapplication_idexplicitContentFiltervanityURLCodepremiumTierpremiumSubscriberCountpremiumProgressBarEnabledpremiumProgressBarEnabledUserUpdatedAtsystemChannelFlagsrulesChannelIdsafetyAlertsChannelIddiscoverySplashpublicUpdatesChannelIdmaxStageVideoChannelUsersmaxVideoChannelUsersmaxMembersnsfwLevelhubTypelatestOnboardingQuestionIdprofilepremiumFeaturesmoderatorReportingownerConfiguredContentLevelverificationRoleIdgameApplicationIdsincidentsDatalinkedGameOrganization
 GuildStore
-DatabaseInfonametype8]
-UserNoteUpdateidnote^]
+DatabaseInfonametypeT]
+UserNoteUpdateidnotez]
 UserNoteLoadStartuserId
 Stores not initialized
 StoreConnectionstoreNamedatabases
@@ -1603,84 +1617,79 @@ Failed to cast to Response
 Failed to cast to Cache
 no global window exists
 caches not available in this browser
-assertion failed: self.inner.semaphore.is_idle()D.
+assertion failed: self.inner.semaphore.is_idle()`.
 blocked_domainsexperiments
 JSError
 description() is deprecated; use DisplayU
+[ServerGuildEmojiidnamerolesrequire_colonsmanagedanimatedavailableversion
+CachedEmojisLoadedemojisNh
+GuildEmojisUpdateguildIdmh
+RawGuildEmojiStoreLOGOUTRESET_SOCKETLIBDISCORE_RESETCONNECTION_OPENUSER_NOTE_UPDATEUSER_NOTE_LOAD_STARTLIBDISCORE_SIMULATE_CRASHLIBDISCORE_SIMULATE_STORE_ERRORGUILD_CREATEGUILD_UPDATEGUILD_DELETEGUILD_MEMBER_ADDBACKGROUND_SYNCCACHE_LOADEDCACHE_LOADED_LAZYGUILD_ROLE_CREATEGUILD_ROLE_UPDATEGUILD_ROLE_DELETEGUILD_EMOJIS_UPDATECACHED_EMOJIS_LOADEDGUILD_STICKERS_UPDATECACHED_STICKERS_LOADEDGUILD_STICKERS_CREATE_SUCCESSGUILD_STICKER_FETCH_SUCCESSGUILD_STICKERS_FETCH_SUCCESS
 Content-LengthContent-Typeapplication/octet-stream
 Cachelibdiscore_common::core::cache::wasm
 experiments_snapshotCleared experiments cacheexperiment_managerlibdiscore_common::core::experiment_cacher
-called `Result::unwrap_throw()` on an `Err` value
-GuildRoleStore()Attempted to initialize thread-local while it is being dropped
-ConnectResultstoreTokeninitialStateDispatchResultstoreResultsmetricsDispatchMetricstimingsmutationsmemoryTimingMetrickinddurationMillisMutationMetricrecordTypeMutationMetricsremovedresurrectedinsertedupdatedfieldsUpdateddidClearMemoryMetricstatisticsMemoryStatisticsitemsStoreDispatchResultdatabaseChangeserrorDatabaseChangedatabaseNameopcodeshandling
-libdiscore::dispatcherlibdiscore_common::stores::dispatcherduringreset
-StoreToken
-a Display implementation returned an error unexpectedly
-ErrorLOGOUTRESET_SOCKETLIBDISCORE_RESETCONNECTION_OPENUSER_NOTE_UPDATEUSER_NOTE_LOAD_STARTLIBDISCORE_SIMULATE_CRASHLIBDISCORE_SIMULATE_STORE_ERRORGUILD_CREATEGUILD_UPDATEGUILD_DELETEGUILD_MEMBER_ADDBACKGROUND_SYNCCACHE_LOADEDCACHE_LOADED_LAZYGUILD_ROLE_CREATEGUILD_ROLE_UPDATEGUILD_ROLE_DELETEGUILD_EMOJIS_UPDATECACHED_EMOJIS_LOADEDGUILD_STICKERS_UPDATECACHED_STICKERS_LOADEDGUILD_STICKERS_CREATE_SUCCESSGUILD_STICKER_FETCH_SUCCESSGUILD_STICKERS_FETCH_SUCCESS
+key-value support is experimental and must be enabled using the `kv` featurel1
 LogoutLibdiscoreResetSimulateCrashSimulateStoreErrorConnectionOpenguildsunavailableGuilds
 ResetSocket
 19220616010a57151d19020616010a311607071601371a00101c0117311607071601371a00101c01172301161f1c1217311732031a
-01121e111c0b
+01121e111c0b`n
 011605161d141605161d171607071211061d1d0a1816070706
-25161d101c011725161d101c01173d12071a051625160018071c033d12071a051625161d101c01173e1c111a1f16`p
-0116031f06141416172116031f06141416173d12071a0516
+25161d101c011725161d101c01173d12071a051625160018071c033d12071a051625161d101c01173e1c111a1f16
+0116031f06141416172116031f06141416173d12071a0516Do
 1f1614101c01173f1614101c0117212330
-371c011a1c1d2c2c373c213a3c3d2c303c3d353a342c2c2c2c373c213a3c3d2c3a3d3a272c2cPq
+371c011a1c1d2c2c373c213a3c3d2c303c3d353a342c2c2c2c373c213a3c3d2c3a3d3a272c2c
 34303723
-1c03161d12001201
+1c03161d12001201,p
 001b161f071601
-1e1c1c1d1f1a141b071e1c1c1d1f1a141b073d1c1716
-internal error: entered unreachable code: invalid Once state
+1e1c1c1d1f1a141b071e1c1c1d1f1a141b073d1c1716\p
 GuildStickersStoreattempted to take ownership of Rust value while it was borrowed
+a Display implementation returned an error unexpectedly
 Error
 description() is deprecated; use Display
-[ServerGuildEmojiidnamerolesrequire_colonsmanagedanimatedavailableversion
-CachedEmojisLoadedemojisVt
-GuildEmojisUpdateguildIdut
-RawGuildEmojiStoreLOGOUTRESET_SOCKETLIBDISCORE_RESETCONNECTION_OPENUSER_NOTE_UPDATEUSER_NOTE_LOAD_STARTLIBDISCORE_SIMULATE_CRASHLIBDISCORE_SIMULATE_STORE_ERRORGUILD_CREATEGUILD_UPDATEGUILD_DELETEGUILD_MEMBER_ADDBACKGROUND_SYNCCACHE_LOADEDCACHE_LOADED_LAZYGUILD_ROLE_CREATEGUILD_ROLE_UPDATEGUILD_ROLE_DELETEGUILD_EMOJIS_UPDATECACHED_EMOJIS_LOADEDGUILD_STICKERS_UPDATECACHED_STICKERS_LOADEDGUILD_STICKERS_CREATE_SUCCESSGUILD_STICKER_FETCH_SUCCESSGUILD_STICKERS_FETCH_SUCCESS
-key-value support is experimental and must be enabled using the `kv` featureP1
-GuildRoleTagspremium_subscriberbot_idintegration_idsku_idis_guild_product_rolesubscription_listing_idavailable_for_purchaseguild_connections
+[Attempted to initialize thread-local while it is being dropped
+ConnectResultstoreTokeninitialStateDispatchResultstoreResultsmetricsDispatchMetricstimingsmutationsmemoryTimingMetrickinddurationMillisMutationMetricrecordTypeMutationMetricsremovedresurrectedinsertedupdatedfieldsUpdateddidClearMemoryMetricstatisticsMemoryStatisticsitemsStoreDispatchResultdatabaseChangeserrorDatabaseChangedatabaseNameopcodeshandling
+libdiscore::dispatcherlibdiscore_common::stores::dispatcherduringreset
+StoreToken
+called `Result::unwrap_throw()` on an `Err` valueErrorLOGOUTRESET_SOCKETLIBDISCORE_RESETCONNECTION_OPENUSER_NOTE_UPDATEUSER_NOTE_LOAD_STARTLIBDISCORE_SIMULATE_CRASHLIBDISCORE_SIMULATE_STORE_ERRORGUILD_CREATEGUILD_UPDATEGUILD_DELETEGUILD_MEMBER_ADDBACKGROUND_SYNCCACHE_LOADEDCACHE_LOADED_LAZYGUILD_ROLE_CREATEGUILD_ROLE_UPDATEGUILD_ROLE_DELETEGUILD_EMOJIS_UPDATECACHED_EMOJIS_LOADEDGUILD_STICKERS_UPDATECACHED_STICKERS_LOADEDGUILD_STICKERS_CREATE_SUCCESSGUILD_STICKER_FETCH_SUCCESSGUILD_STICKERS_FETCH_SUCCESS
+GuildRoleTagspremium_subscriberbot_idintegration_idsku_idis_guild_product_rolesubscription_listing_idavailable_for_purchaseguild_connectionsgame_organization_can_inviteUw
 ServerGuildRoleidnamedescriptionpermissionsflagsmentionablepositioncolorcolorshoistmanagediconunicode_emojitagsversion
-GuildRoleUpdateOrCreateActionguildIdroleqy
+GuildRoleUpdateOrCreateActionguildIdroleEy
 GuildRoleDeleteActionroleId
-a sequencea tuple of size 2a map
+a sequencea tuple of size 2a map()
 ServerGuildStickeridnametagsdescriptionformat_typeavailableguild_idversionuser_id
 GuildStickersUpdateguildIdstickers
 GuildStickersCreateSuccesssticker
-GuildStickerFetchSuccess2{
+GuildStickerFetchSuccess
 GuildStickersFetchSuccessCachedStickersLoaded
 storeNamedatabasestypeMap key is not a string and cannot be an object key
-NoteStoreAttempted to initialize thread-local while it is being dropped
+NoteStore
+internal error: entered unreachable code: invalid Once state4'
+GuildRoleStoreAttempted to initialize thread-local while it is being dropped?&
 0123456789abcdef0123456789ABCDEFcould not retrieve random bytes for uuid
 assertion failed: edge.height == self.node.height - 1
 assertion failed: src.len() == dst.len()
-should have a Window
+should have a Window;#
 should have a Performance
 assertion failed: edge.height == self.height - 1
 Unknown JS error
 pending lock poisoned
 storage lock poisoned
-()guildIdidanimatednamerequire_colonsavailablerolesmanagedversiontypedescriptionownerIdiconsplashbannerhomeHeaderpreferredLocalefeaturesafkChannelIdafkTimeoutsystemChannelIdverificationLeveljoinedAtdefaultMessageNotificationsmfaLevelapplication_idexplicitContentFiltervanityURLCodepremiumTierpremiumSubscriberCountpremiumProgressBarEnabledpremiumProgressBarEnabledUserUpdatedAtsystemChannelFlagsrulesChannelIdsafetyAlertsChannelIddiscoverySplashpublicUpdatesChannelIdmaxStageVideoChannelUsersmaxVideoChannelUsersmaxMembersnsfwLevelhubTypelatestOnboardingQuestionIdprofilepremiumFeaturesmoderatorReportingownerConfiguredContentLevelverificationRoleIdgameApplicationIdsincidentsDatalinkedGameOrganizationen-UShttps://libdiscore.discordapp.coms
-Box<dyn Any>0123456789abcdefvariant identifierfield identifierguild_emojisguilds
+()guildIdidanimatednamerequire_colonsavailablerolesmanagedversiontypedescriptionownerIdiconsplashbannerhomeHeaderpreferredLocalefeaturesafkChannelIdafkTimeoutsystemChannelIdverificationLeveljoinedAtdefaultMessageNotificationsmfaLevelapplication_idexplicitContentFiltervanityURLCodepremiumTierpremiumSubscriberCountpremiumProgressBarEnabledpremiumProgressBarEnabledUserUpdatedAtsystemChannelFlagsrulesChannelIdsafetyAlertsChannelIddiscoverySplashpublicUpdatesChannelIdmaxStageVideoChannelUsersmaxVideoChannelUsersmaxMembersnsfwLevelhubTypelatestOnboardingQuestionIdprofilepremiumFeaturesmoderatorReportingownerConfiguredContentLevelverificationRoleIdgameApplicationIdsincidentsDatalinkedGameOrganizationen-UShttps://libdiscore.discordapp.com
+[Box<dyn Any>0123456789abcdefvariant identifierfield identifierguild_emojisguilds
+9serialize_value called before serialize_key
 treatmentIdADDEDREMOVEDstruct CacheableExperimentConfig with 1 element
-struct DeltaResponse with 2 elements
+struct DeltaResponse with 2 elements 
 internal error: entered unreachable code
-a snowflake as either a string or a number, which parses to a non-zero u64serialize_value called before serialize_key
-treatmentId\"\\\b\f\n\r\tData too short to contain versionclear_cache called, sending clear message to flusherexperiment_managerlibdiscore_common::core::experiment_cacherFailed to send clear message to flusher, flusher may have stoppedFailed to send experiments snapshot to flusher, flusher may have stopped
-field identifierstruct CacheableExperimentConfigstruct ServerGuildStickerstruct GuildStickersUpdatestruct GuildStickersCreateSuccessstruct GuildStickerFetchSuccessstruct GuildStickersFetchSuccessstruct CachedStickersLoadedFailed to serialize snapshot00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899guildIdidnamedescriptionpermissionsflagsmentionablepositioncolorcolorscolorStringcolorStringshoistmanagediconunicodeEmojitagsversionprimaryColorsecondaryColortertiaryColortagbadgefeaturesadditionalEmojiSlotsadditionalStickerSlotsadditionalSoundSlotsmoderatorReportingEnabledmoderatorReportChannelIdraidDetectedAtdmSpamDetectedAtdmsDisabledUntilinvitesDisabledUntillockdownDurationHoursapplicationIdgameOrganizationIdopcoderemovePartitionpartitionKeysetPartitionpartitionsetRecordclusteringKeyvalueremoveRecordclearDatabasethis pair has already been serialized
-field identifiervariant identifiera sequencea mapthis pair has not yet been serializedstruct BackgroundSyncFullGuildstruct BackgroundSyncPartialGuildstruct GuildPartialUpdatesstruct SerializedRolestruct CacheLoadedstruct CacheLoadedLazystruct SerializedGuildstruct GuildProfilestruct GuildPremiumFeaturesstruct ModeratorReportingstruct GuildIncidentsDatastruct LinkedGameOrganizationstruct Userstruct GuildPropertiesstruct ConnectionOpenGuildstruct GuildCreatestruct GuildCreateGuildstruct GuildUpdatestruct GuildUpdateGuildstruct GuildDeletestruct GuildDeleteGuildstruct GuildMemberAddstruct BackgroundSyncan array of length 2
-Aguild_rolesstruct variant BackgroundSyncGuild::Unavailable
-size overflows MAX_SIZE
-Attempted to initialize thread-local while it is being dropped
-premium_subscriberbot_idintegration_idsku_idis_guild_product_rolesubscription_listing_idavailable_for_purchaseguild_connectionsprimary_colorsecondary_colortertiary_color
-could not convert slice to arraySendErrorfield identifieran integer or a string containing an integernullstruct ServerRoleColorsstruct GuildRoleTagsstruct ServerGuildRolestruct GuildRoleUpdateOrCreateActionstruct GuildRoleDeleteAction
-TryFromSliceErrordescription() is deprecated; use Display
+idloadingnoteassertion failed: self.inner.semaphore.is_idle()
+field identifierhandle_reset called, clearing databaseNoteStorelibdiscore_common::stores::notessimulated crash
+simulated errornotesinternal error: entered unreachable code: invalid Once state4'
+struct ServerGuildEmojistruct CachedEmojisLoadedstruct GuildEmojisUpdatecalled after complete
 Broken HTTP sender
 Broken HTTP receiver
 promise resolved to unexpected type
 Successfully fetched blocked domainshttps://cdn.discordapp.com/bad-domains/updated_hashes.json
 delta url not settargetRevision
-invarianthttps://cdn.discordapp.com/bad-domains/current_revision.txt2$
+invarianthttps://cdn.discordapp.com/bad-domains/current_revision.txtN$
 failed to parse revisionDelta update failed due to inconsistent state, falling back to full syncblocked_domains_stateContent-LengthContent-Typeapplication/octet-stream
 NETWORKlibdiscore_common::core::http
 url parseheaders try_iterheaders have an iteratorheaders iterator doesn't throwserialized headersdeserializable serialized headers
@@ -1691,7 +1700,7 @@ nQxaAWJ4
 libdiscore
 Failed to build client
 could not convert slice to array
-JSErrorError
+JSErrorSendErrorError
 context
 source
 InvalidHexCharactercindexOddLengthInvalidStringLength
@@ -1701,13 +1710,15 @@ Request
 JsonParseError
 TextParseErrorFileError
 InvalidByteRangestartendfile_size
+TryFromSliceErrordescription() is deprecated; use Display
 qDd}
 >L<-
-guild_ididnametagsdescriptionformat_typeavailableversiontypeuser_id
-BlockedDomainsStore.run_forever already spawnedstoreslibdiscore_common::stores
-field identifierstruct Logoutstruct LibdiscoreResetstruct SimulateCrashstruct SimulateStoreErrorstruct ConnectionOpenstruct ResetSocket
-guildStickersNone
-Someurl::form_urlencoded::Serializer finished
+a snowflake as either a string or a number, which parses to a non-zero u64url::form_urlencoded::Serializer finished
+size overflows MAX_SIZE
+premium_subscriberbot_idintegration_idsku_idis_guild_product_rolesubscription_listing_idavailable_for_purchaseguild_connectionsgame_organization_can_inviteprimary_colorsecondary_colortertiary_color
+could not convert slice to arrayfield identifiera sequencean integer or a string containing an integera mapnullstruct ServerRoleColorsstruct GuildRoleTagsstruct ServerGuildRolestruct GuildRoleUpdateOrCreateActionstruct GuildRoleDeleteActionan array of length 2
+treatmentId\"\\\b\f\n\r\tData too short to contain versionclear_cache called, sending clear message to flusherexperiment_managerlibdiscore_common::core::experiment_cacherFailed to send clear message to flusher, flusher may have stoppedFailed to send experiments snapshot to flusher, flusher may have stopped
+struct CacheableExperimentConfigFailed to serialize snapshot00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBJHJHJHJHJHJHJHJHJHJHJHJHJHJHJHJHJHJHJHJHJHJHJHJHJHJHJHJHJHJHJHLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJLJPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNPNRPRPRPRPRPRPRPRPRPRPRPRPRPRPRPRPRPRPRPRPRPRPRPRPRPRPRPRPRPRPVTVTVTVTVTVTVTVTVTVTVTVTVTVTVTVTVTVTVTVTVTVTVTVTVTVTVTVTVTVTVTXVXVXVXVXVXVXVXVXVXVXVXVXVXVXVXVXVXVXVXVXVXVXVXVXVXVXVXVXVXVXVZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZX^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^dbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdb
 artificial crashlibdiscore_common
 writing rfc3339 datetime to string should never fail
@@ -1724,13 +1735,17 @@ Ee2`L
 0(DC
 q_rU
 ,'XH
-idloadingnoteassertion failed: self.inner.semaphore.is_idle()
-field identifierhandle_reset called, clearing databaseNoteStorelibdiscore_common::stores::notessimulated crash
-simulated errornotesinternal error: entered unreachable code: invalid Once state
-struct ServerGuildEmojistruct CachedEmojisLoadedstruct GuildEmojisUpdatecalled after complete
+Attempted to initialize thread-local while it is being dropped
+guildIdidnamedescriptionpermissionsflagsmentionablepositioncolorcolorscolorStringcolorStringshoistmanagediconunicodeEmojitagsversionprimaryColorsecondaryColortertiaryColortagbadgefeaturesadditionalEmojiSlotsadditionalStickerSlotsadditionalSoundSlotsmoderatorReportingEnabledmoderatorReportChannelIdraidDetectedAtdmSpamDetectedAtdmsDisabledUntilinvitesDisabledUntillockdownDurationHoursapplicationIdgameOrganizationIdopcoderemovePartitionpartitionKeysetPartitionpartitionsetRecordclusteringKeyvalueremoveRecordclearDatabasethis pair has already been serialized
+field identifiervariant identifierthis pair has not yet been serializedstruct Logoutstruct LibdiscoreResetstruct SimulateCrashstruct SimulateStoreErrorstruct ConnectionOpenstruct ResetSocketstruct BackgroundSyncFullGuildstruct BackgroundSyncPartialGuildstruct GuildPartialUpdatesstruct SerializedRolestruct CacheLoadedstruct CacheLoadedLazystruct SerializedGuildstruct GuildProfilestruct GuildPremiumFeaturesstruct ModeratorReportingstruct GuildIncidentsDatastruct LinkedGameOrganizationstruct Userstruct GuildPropertiesstruct ConnectionOpenGuildstruct GuildCreatestruct GuildCreateGuildstruct GuildUpdatestruct GuildUpdateGuildstruct GuildDeletestruct GuildDeleteGuildstruct GuildMemberAddstruct BackgroundSync
+guild_rolesstruct variant BackgroundSyncGuild::Unavailableguild_ididnametagsdescriptionformat_typeavailableversiontypeuser_id
+BlockedDomainsStore.run_forever already spawnedstoreslibdiscore_common::stores
+field identifierstruct ServerGuildStickerstruct GuildStickersUpdatestruct GuildStickersCreateSuccessstruct GuildStickerFetchSuccessstruct GuildStickersFetchSuccessstruct CachedStickersLoaded
+guildStickersNone
+Somecalled `Result::unwrap_throw()` on an `Err` value
 closure invoked recursively or after being droppedFnOnce called more than onceassertion failed: slot.is_none()
 internal error: entered unreachable code: HeaderMap::into_iter yielded None first
-urlbuilder errorerror sending requesterror following redirectHTTP status server errorHTTP status client errorrequest or response body errorerror decoding response bodyerror upgrading connectionRequest
+urlbuilder errorerror sending requesterror following redirectHTTP status server errorHTTP status client errorrequest or response body errorerror decoding response bodyerror upgrading connectionRequest(A
 operation timed outURL scheme is not allowedBuilderRedirect
 StatusBodyDecodeUpgradereqwest::Error
 kind%
@@ -1742,7 +1757,7 @@ ServiceWorkerGlobalScope
 TryFromIntErrorBadScheme
 EmptyHostIdnaErrorInvalidPortInvalidIpv4AddressInvalidIpv6AddressInvalidDomainCharacterRelativeUrlWithoutBaseRelativeUrlWithCannotBeABaseBaseSetHostOnCannotBeABaseUrlOverflowEmptyInvalidDigitPosOverflowNegOverflowZeroNotAPowerOfTwodescription() is deprecated; use Display
 attempted to take ownership of Rust value while it was borrowedattempted to take ownership of Rust value while it was borrowed
-internal error: entered unreachable codeO,
+internal error: entered unreachable codek,
 Map must not be polled after it returned `Poll::Ready`
 attempted to take ownership of Rust value while it was borrowedcalled `Option::unwrap_throw()` on a `None` valuecalled `Result::unwrap_throw()` on an `Err` value
 assertion failed: self.is_char_boundary(new_len)
@@ -1915,18 +1930,18 @@ assertion failed: !self.serialization[scheme_end_as_usize..].starts_with("://")
 Programming error. parse_query_and_fragment() called without ? or #
 empty hostinvalid international domain nameinvalid port numberinvalid IPv4 addressinvalid IPv6 addressinvalid domain characterrelative URL without a baserelative URL with a cannot-be-a-base basea cannot-be-a-base URL doesn
 t have a host to setURLs more than 4 GB are not supportedError
+assertion failed: self.is_char_boundary(new_len)(A
 assertion failed: self.fragment_start.is_none()
 start of range should be a character boundaryend of range should be a character boundaryassertion failed: self.is_char_boundary(start)assertion failed: self.is_char_boundary(end)
 a non-empty list of numbers
 capacity overflow
-assertion failed: end <= len!D
+assertion failed: end <= len=D
 assertion failed: index < len
-assertion failed: new_cap >= len!D
+assertion failed: new_cap >= len=D
 CapacityOverflow
 AllocErrlayoutassertion failed: code_point < self.header.high_start && self.header.high_start > SMALL_LIMIT
 mid > len
 explicit panic
-internal error: entered unreachable codewD
 $<"8
 4M"8
 (z"8
@@ -1980,11 +1995,11 @@ XZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZXZ
 \^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
 ^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`^`
 bdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbdbd
-there is no such thing as a release load~?
+there is no such thing as a release load
 there is no such thing as an acquire-release load
 None
 Some
-cannot recursively acquire mutex1%
+cannot recursively acquire mutexM%
 OFFERRORWARNINFODEBUGTRACE
                                                                                                                                 
 a stringbyte arrayunit valueOption valuenewtype structsequencemapenumunit variantnewtype varianttuple variantstruct varianta booleana stringu16i32i64u81 element in mapexplicit panic
@@ -1995,7 +2010,7 @@ Lazy instance has previously been poisoned
 closure invoked recursively or after being droppedcalled `Option::unwrap_throw()` on a `None` valuereentrant init
 null pointer passed to rustrecursive use of an object detected which would lead to unsafe aliasing in rust
 one-time initialization may not be performed recursively
-operation not supported on this platform a
+operation not supported on this platform
 assertion failed: psize >= size + min_overhead
 assertion failed: psize <= size + max_overhead
 rwlock overflowed read locks
@@ -2012,7 +2027,7 @@ rwlock has not been locked for reading
 for<> , 
 0123456789abcdef
 Cunsafe extern "
-" -fn() ->  + : punycode{}.llvm.-@
+" -fn() ->  + : punycode{}.llvm.I@
 called `Result::unwrap()` on an `Err` value0
 []::::{closureshim:#< as >#[splat] & mut *const ; (,dyn  is _falsetrue{ {  } = 0x
 '..= | !nullboolcharstr()i8i16i32i64i128isizeu8u16u32u64u128usizef32f64!...
@@ -2020,8 +2035,8 @@ called `Result::unwrap()` on an `Err` value0
 `fmt::Error` from `SizeLimitedFmtAdapter` was discarded
 SizeLimitExhaustedError
 ParseIntErrorkindEmptyInvalidDigitPosOverflowNegOverflowZeroNotAPowerOfTwo
-Hash table capacity overflow0
-capacity overflow4?
+Hash table capacity overflowL
+capacity overflowP?
 a formatting trait implementation returned an error when the underlying stream did not
 PI73
 ) as
@@ -2039,7 +2054,7 @@ assertion failed: buf[0] > b'0'
 ,`+*0
 !K@4
 jaUOo
-user-provided comparison function does not correctly implement a total order
+user-provided comparison function does not correctly implement a total order(!
 U1(\Q
 mSx@
 b}$l
