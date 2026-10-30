@@ -1,5 +1,36 @@
 import { decode } from '@webassemblyjs/wasm-parser';
 import fs from 'fs';
+import { execFileSync } from 'child_process';
+
+function extractSurface(path) {
+    try {
+        const dump = execFileSync('wasm-objdump', ['-x', path], {
+            encoding: 'utf8',
+            maxBuffer: 16 * 1024 * 1024,
+        });
+        const imports = new Set();
+        const exports = new Set();
+        let section = '';
+        for (const line of dump.split('\n')) {
+            const header = line.match(/^([A-Za-z]+)\[\d+\]:/);
+            if (header) section = header[1].toLowerCase();
+            if (section === 'import') {
+                const match = line.match(/ <- (.+)$/);
+                if (match) imports.add(match[1]);
+            }
+            if (section === 'export') {
+                const match = line.match(/<([^>]+)>/);
+                if (match) exports.add(match[1]);
+            }
+        }
+        return {
+            imports: [...imports].sort(),
+            exports: [...exports].sort(),
+        };
+    } catch {
+        return { imports: [], exports: [] };
+    }
+}
 
 function extractStrings(buf, minLen = 4) {
     const bytes = new Uint8Array(buf);
@@ -65,5 +96,6 @@ export function extractMetadata(buf) {
         target_features: [...new Set(targetFeatures)],
         strings_count: strings.length,
         strings_file: 'data/extracted-strings.txt',
+        surface: extractSurface('data/libdiscore.wasm'),
     };
 }

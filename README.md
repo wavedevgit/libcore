@@ -11,4 +11,5 @@ A minimal discord datamining repo that is meant to track rspack configuration an
 
 Set `WEBHOOK_URL` to receive a Discord webhook notification when the build,
 Rspack version, or libdiscore hash changes. GitHub Actions reads it from the
-repository secret with the same name.
+repository secret with the same name. Libdiscore notifications also list newly
+seen Wasm imports and exports when `wasm-objdump` is available.

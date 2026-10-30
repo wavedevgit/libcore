@@ -31,6 +31,21 @@ async function notify(build, changes) {
     if (!response.ok) throw new Error(`Webhook failed with HTTP ${response.status}`);
 }
 
+function surfaceChanges(oldBuild, build) {
+    const oldSurface = oldBuild['libdiscore-metadata']?.surface ?? {};
+    const newSurface = build['libdiscore-metadata']?.surface ?? {};
+    const changes = [];
+    for (const key of ['imports', 'exports']) {
+        const before = new Set(oldSurface[key] ?? []);
+        const added = (newSurface[key] ?? []).filter((item) => !before.has(item));
+        if (added.length > 0) {
+            const label = key === 'imports' ? 'Libdiscore paths/imports' : 'Libdiscore exports';
+            changes.push(`${label} added: ${added.slice(0, 12).join(', ')}${added.length > 12 ? ` (+${added.length - 12} more)` : ''}`);
+        }
+    }
+    return changes;
+}
+
 async function main() {
     try {
         await fs.mkdir('./data');
@@ -121,6 +136,7 @@ async function main() {
         changes.push(`Libdiscore: ${old.libdiscore ?? 'none'} → ${build.libdiscore ?? 'not found'}`);
     if (build.rspackVersion !== old.rspackVersion)
         changes.push(`Rspack: ${old.rspackVersion ?? 'none'} → ${build.rspackVersion ?? 'unknown'}`);
+    changes.push(...surfaceChanges(old, build));
     await notify(build, changes);
     console.log('done, enjoy the data!');
 }
