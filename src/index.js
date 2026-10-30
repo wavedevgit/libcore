@@ -6,6 +6,31 @@ import fs, { readFile } from 'fs/promises';
 import { extractMetadata } from './wasm-metadata.js';
 import { formatTimeDiff } from './time.js';
 
+async function notify(build, changes) {
+    if (!process.env.WEBHOOK_URL || changes.length === 0) return;
+
+    const response = await fetch(process.env.WEBHOOK_URL, {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({
+            embeds: [
+                {
+                    title: 'New Discord build data',
+                    description: changes.join('\n'),
+                    color: 0x5865f2,
+                    fields: [
+                        { name: 'Build', value: build.buildNumber ?? 'unknown', inline: true },
+                        { name: 'Rspack', value: build.rspackVersion ?? 'unknown', inline: true },
+                        { name: 'Libdiscore', value: build.libdiscore ?? 'not found', inline: true },
+                    ],
+                },
+            ],
+        }),
+    });
+
+    if (!response.ok) throw new Error(`Webhook failed with HTTP ${response.status}`);
+}
+
 async function main() {
     try {
         await fs.mkdir('./data');
@@ -38,7 +63,6 @@ async function main() {
             target_features: null,
         },
     };
-    if (build.buildNumber === old.buildNumber) process.exit(0)
     console.log('got main build info', build);
 
     console.log('trying to find libdiscore');
@@ -63,19 +87,18 @@ async function main() {
         console.log('something changed.');
     }
 
-    const libdiscoreBuffer = await get(
-        BASE_URL + '/assets/' + build.libdiscore + '.module.wasm',
-        {
-            headers: HEADERS,
-            binary: true,
-        },
-    );
+    const libdiscoreBuffer = build.libdiscore
+        ? await get(BASE_URL + '/assets/' + build.libdiscore + '.module.wasm', {
+              headers: HEADERS,
+              binary: true,
+          })
+        : null;
 
-    if (build.libdiscore)
+    if (libdiscoreBuffer)
         await fs.writeFile('./data/libdiscore.wasm', libdiscoreBuffer);
 
     // gets metadata
-    build['libdiscore-metadata'] = extractMetadata(libdiscoreBuffer);
+    if (libdiscoreBuffer) build['libdiscore-metadata'] = extractMetadata(libdiscoreBuffer);
 
     // its time to extract rspack runtime only
 
@@ -91,6 +114,14 @@ async function main() {
         JSON.stringify(build, null, 4),
         'utf-8',
     );
+    const changes = [];
+    if (build.buildNumber !== old.buildNumber)
+        changes.push(`Build: ${old.buildNumber ?? 'none'} → ${build.buildNumber ?? 'unknown'}`);
+    if (build.libdiscore !== old.libdiscore)
+        changes.push(`Libdiscore: ${old.libdiscore ?? 'none'} → ${build.libdiscore ?? 'not found'}`);
+    if (build.rspackVersion !== old.rspackVersion)
+        changes.push(`Rspack: ${old.rspackVersion ?? 'none'} → ${build.rspackVersion ?? 'unknown'}`);
+    await notify(build, changes);
     console.log('done, enjoy the data!');
 }
 

@@ -11,6 +11,8 @@ permissions:
 jobs:
     mine:
         runs-on: ubuntu-latest
+        env:
+            WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
         steps:
             - name: Checkout
               uses: actions/checkout@v4
