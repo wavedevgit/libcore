@@ -1,0 +1,928 @@
+{
+ "binary": "/home/wavedev/libcore/data/libdiscore.wasm",
+ "size": 1203180,
+ "format_version": 1836278016,
+ "sections": {
+  "type": [
+   {
+    "id": 1,
+    "start": 6,
+    "size": 0
+   },
+   {
+    "id": 1,
+    "start": 11,
+    "size": 551
+   }
+  ],
+  "custom": [
+   {
+    "id": 0,
+    "start": 8,
+    "size": 0
+   },
+   {
+    "id": 0,
+    "start": 1202939,
+    "size": 132
+   },
+   {
+    "id": 0,
+    "start": 1203073,
+    "size": 107
+   }
+  ],
+  "import": [
+   {
+    "id": 2,
+    "start": 565,
+    "size": 6451
+   }
+  ],
+  "function": [
+   {
+    "id": 3,
+    "start": 7019,
+    "size": 1425
+   }
+  ],
+  "table": [
+   {
+    "id": 4,
+    "start": 8446,
+    "size": 11
+   }
+  ],
+  "memory": [
+   {
+    "id": 5,
+    "start": 8459,
+    "size": 3
+   }
+  ],
+  "global": [
+   {
+    "id": 6,
+    "start": 8464,
+    "size": 9
+   }
+  ],
+  "export": [
+   {
+    "id": 7,
+    "start": 8476,
+    "size": 1708
+   }
+  ],
+  "element": [
+   {
+    "id": 9,
+    "start": 10187,
+    "size": 1701
+   }
+  ],
+  "data_count": [
+   {
+    "id": 12,
+    "start": 11890,
+    "size": 2
+   }
+  ],
+  "code": [
+   {
+    "id": 10,
+    "start": 11896,
+    "size": 993712
+   }
+  ],
+  "data": [
+   {
+    "id": 11,
+    "start": 1005612,
+    "size": 197324,
+    "count": 1435
+   }
+  ]
+ },
+ "imports": [
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbindgen_string_new",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbindgen_number_new",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_warn_2159aed0435b2f46",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbindgen_is_undefined",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbindgen_is_string",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbindgen_error_new",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbindgen_string_get",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbindgen_is_null",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbindgen_is_object",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbindgen_in",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_set_3f1d0b984ed272ed",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbindgen_jsval_loose_eq",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbindgen_boolean_get",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbindgen_number_get",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_getwithrefkey_1dc361bd10053bfe",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_String_8f0eb39a4a4c2f66",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbindgen_bigint_from_i64",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbindgen_bigint_from_u64",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_getRandomValues_38097e921c2494c3",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbindgen_cb_drop",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_setTimeout_db2dbaeefb6f39c7",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_clearTimeout_5a54f8841c30079a",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_setTimeout_2e707715f8cc9497",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_clearTimeout_86721db0036bea98",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_fetch_d36a73832f0a45e8",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_performance_c185c0cdc2766575",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_caches_550bbbcd16e33488",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_instanceof_Window_def73ea0955fc569",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_fetch_509096533071c657",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_setstatus_51b4fc011091cbb3",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_setheaders_3b47c898e8de6d44",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_new_018dcc2d6c8c2f6a",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_byobRequest_77d9adf63337edfb",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_close_5ce03e29be453811",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_append_8c7dd8d641a5f01b",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_open_97e7dd08648f7ba8",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_set_11cd83f45504cedf",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_newwithstrandinit_06c535e0a867c635",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_signal_aaf9ad74119f20a4",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_view_fd8a56e8983f448d",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_new_e25e5aab09ff45db",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_respond_1f279fa9f8edcb1c",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_close_304cc1fef3466669",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_abort_775ef1d17fc65868",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_abort_410ec47a64ac6117",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_enqueue_bb16ba72f537dc9e",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_delete_8d7d048660be060f",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_match_5b6cb6a9ae1700aa",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_now_d18023d54d4e5500",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_put_75886410036f9ae5",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_instanceof_Cache_68839760b07b7088",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_setcredentials_c3a22f1cd105a2c6",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_setbody_5923b78a95eedf29",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_setmode_5dc300b865044b65",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_setmethod_3c5280fe5d890842",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_setsignal_75b21ef3a81de905",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_setheaders_834c0bdb6a8949ad",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_url_ae10c34ca209681d",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_status_f6360336ca686bf0",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_newwithu8arraysequence_1e24f242a67f6fdd",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_headers_9cb51cfd2ac780a4",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_newwithoptblobandinit_813b17381b1c8c7d",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_arrayBuffer_d1b44c4390db422f",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_instanceof_Response_f2cc20d9f7dfd644",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_queueMicrotask_d3219def82552485",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbindgen_is_function",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_queueMicrotask_97d92b4fcc8a61c5",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_iterator_9a24c88df860dc65",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_get_67b2ba62fc30de12",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_call_672a4d21634d4a24",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_next_25feadfc0913fea9",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_push_737cfc8c1432c2c6",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_new_78feb108b6472713",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_get_b9b93047fe3cf45b",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_set_37837023f3d740e8",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_isArray_a1eab7e0d067391b",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_length_e2d2a49132c1b256",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_new_c68d7209be747379",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_new_5e0be73521bc8c17",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_set_8fc6bf8a5b1071d1",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_newnoargs_105ed471475aaf50",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_call_7cccdd69e0791ae2",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_next_6574e1a8a62d1055",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_done_769e5ede4b31c67b",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_value_cd1ffa7b1ab794f1",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_new_405e22f390576ce2",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_buffer_609cc3eee51ed158",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_newwithbyteoffsetandlength_d97e637ebe145a9a",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_length_a446193dc22c12f8",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_new_a12002a7f91c75be",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_set_65595bdd868b3009",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_new_23a2665fac83c611",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_resolve_4851785c9c5f573d",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_then_44b73946d2fb3e7d",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_then_48b406749878a531",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_buffer_09165b52af8c5237",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_byteLength_e674b853d9c77e1d",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_byteOffset_fd862df290ef848d",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_static_accessor_GLOBAL_THIS_56578be7e9f832b0",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_static_accessor_SELF_37c5d418e4bf5819",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_static_accessor_GLOBAL_88a902d13a557d07",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_static_accessor_WINDOW_5de37043a91a9c40",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_instanceof_Uint8Array_17156bcf118086a9",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_instanceof_ArrayBuffer_e14585432e3737fc",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_stringify_f7ed6987935b4a24",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_has_a5ea9117f258a0ec",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbg_set_bb8cecf6a62b9f46",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbindgen_memory",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbindgen_throw",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbindgen_debug_string",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbindgen_closure_wrapper1676",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbindgen_closure_wrapper1713",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbindgen_closure_wrapper2570",
+   "kind": "func"
+  },
+  {
+   "module": "./libdiscore_wasm_bg.js",
+   "name": "__wbindgen_init_externref_table",
+   "kind": "func"
+  }
+ ],
+ "exports": [
+  {
+   "name": "memory",
+   "kind": "memory",
+   "index": 0
+  },
+  {
+   "name": "__wbg_fluxapi_free",
+   "kind": "func",
+   "index": 319
+  },
+  {
+   "name": "fluxapi_connectStore",
+   "kind": "func",
+   "index": 1074
+  },
+  {
+   "name": "fluxapi_dispatchAction",
+   "kind": "func",
+   "index": 1169
+  },
+  {
+   "name": "fluxapi_findStoresThatCanHandleActionType",
+   "kind": "func",
+   "index": 1255
+  },
+  {
+   "name": "fluxapi_flushReplicationStates",
+   "kind": "func",
+   "index": 1318
+  },
+  {
+   "name": "fluxapi_getRegisteredActionTypes",
+   "kind": "func",
+   "index": 1319
+  },
+  {
+   "name": "fluxapi_new",
+   "kind": "func",
+   "index": 848
+  },
+  {
+   "name": "installLogCallback",
+   "kind": "func",
+   "index": 1008
+  },
+  {
+   "name": "__wbg_blockeddomainsstore_free",
+   "kind": "func",
+   "index": 724
+  },
+  {
+   "name": "__wbg_experimentcacher_free",
+   "kind": "func",
+   "index": 724
+  },
+  {
+   "name": "__wbg_get_wasmcacheableexperimentconfig_treatmentId",
+   "kind": "func",
+   "index": 1081
+  },
+  {
+   "name": "__wbg_set_wasmcacheableexperimentconfig_treatmentId",
+   "kind": "func",
+   "index": 1087
+  },
+  {
+   "name": "__wbg_wasmcacheableexperimentconfig_free",
+   "kind": "func",
+   "index": 725
+  },
+  {
+   "name": "blockeddomainsstore_isBlockedDomain",
+   "kind": "func",
+   "index": 1065
+  },
+  {
+   "name": "blockeddomainsstore_startFetchingBlockedDomains",
+   "kind": "func",
+   "index": 1086
+  },
+  {
+   "name": "experimentcacher_clearCache",
+   "kind": "func",
+   "index": 1098
+  },
+  {
+   "name": "experimentcacher_flushToCache",
+   "kind": "func",
+   "index": 1085
+  },
+  {
+   "name": "experimentcacher_getConfig",
+   "kind": "func",
+   "index": 1075
+  },
+  {
+   "name": "generateLaunchSignature",
+   "kind": "func",
+   "index": 1088
+  },
+  {
+   "name": "rustMultiply",
+   "kind": "func",
+   "index": 1489
+  },
+  {
+   "name": "initLibdiscore",
+   "kind": "func",
+   "index": 1357
+  },
+  {
+   "name": "crash",
+   "kind": "func",
+   "index": 1529
+  },
+  {
+   "name": "__wbg_intounderlyingbytesource_free",
+   "kind": "func",
+   "index": 662
+  },
+  {
+   "name": "intounderlyingbytesource_autoAllocateChunkSize",
+   "kind": "func",
+   "index": 932
+  },
+  {
+   "name": "intounderlyingbytesource_cancel",
+   "kind": "func",
+   "index": 759
+  },
+  {
+   "name": "intounderlyingbytesource_pull",
+   "kind": "func",
+   "index": 1146
+  },
+  {
+   "name": "intounderlyingbytesource_start",
+   "kind": "func",
+   "index": 1272
+  },
+  {
+   "name": "intounderlyingbytesource_type",
+   "kind": "func",
+   "index": 948
+  },
+  {
+   "name": "__wbg_intounderlyingsource_free",
+   "kind": "func",
+   "index": 487
+  },
+  {
+   "name": "intounderlyingsource_cancel",
+   "kind": "func",
+   "index": 559
+  },
+  {
+   "name": "intounderlyingsource_pull",
+   "kind": "func",
+   "index": 1147
+  },
+  {
+   "name": "__wbg_intounderlyingsink_free",
+   "kind": "func",
+   "index": 651
+  },
+  {
+   "name": "intounderlyingsink_abort",
+   "kind": "func",
+   "index": 1148
+  },
+  {
+   "name": "intounderlyingsink_close",
+   "kind": "func",
+   "index": 1320
+  },
+  {
+   "name": "intounderlyingsink_write",
+   "kind": "func",
+   "index": 1149
+  },
+  {
+   "name": "__wbindgen_malloc",
+   "kind": "func",
+   "index": 1006
+  },
+  {
+   "name": "__wbindgen_realloc",
+   "kind": "func",
+   "index": 1052
+  },
+  {
+   "name": "__wbindgen_exn_store",
+   "kind": "func",
+   "index": 1310
+  },
+  {
+   "name": "__externref_table_alloc",
+   "kind": "func",
+   "index": 341
+  },
+  {
+   "name": "__wbindgen_export_4",
+   "kind": "table",
+   "index": 1
+  },
+  {
+   "name": "__wbindgen_export_5",
+   "kind": "table",
+   "index": 0
+  },
+  {
+   "name": "__externref_table_dealloc",
+   "kind": "func",
+   "index": 531
+  },
+  {
+   "name": "__wbindgen_free",
+   "kind": "func",
+   "index": 1247
+  },
+  {
+   "name": "_dyn_core_f73ed7932dd6acc___ops__function__FnMut_____Output______as_wasm_bindgen_9353bb4e5bfa4c18___closure__WasmClosure___describe__invoke______",
+   "kind": "func",
+   "index": 1136
+  },
+  {
+   "name": "_dyn_core_f73ed7932dd6acc___ops__function__FnMut_____Output______as_wasm_bindgen_9353bb4e5bfa4c18___closure__WasmClosure___describe__invoke______10",
+   "kind": "func",
+   "index": 1137
+  },
+  {
+   "name": "closure712_externref_shim",
+   "kind": "func",
+   "index": 1256
+  },
+  {
+   "name": "closure751_externref_shim",
+   "kind": "func",
+   "index": 1122
+  },
+  {
+   "name": "__wbindgen_start",
+   "kind": "func",
+   "index": 113
+  }
+ ],
+ "export_count": 49,
+ "import_count": 114
+}
